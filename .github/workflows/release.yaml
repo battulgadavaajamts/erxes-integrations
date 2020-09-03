@@ -44,21 +44,6 @@ jobs:
       run: |
         yarn install
 
-    - name: Integrations - Lint
-      run: |
-        yarn lint
-
-    - name: Integrations - Test
-      run: |
-        yarn test
-      env:
-        TEST_MONGO_URL: mongodb://localhost/test
-        GOOGLE_CLIENT_ID: GOOGLE_CLIENT_ID
-        GOOGLE_CLIENT_SECRET: GOOGLE_CLIENT_SECRET
-        ENCRYPTION_KEY: aksljdklwjdaklsjdkwljaslkdjwkljd
-        DOMAIN: http://localhost:3400
-        MAIN_APP_DOMAIN: http://localhost:3400
-
     - name: Integrations - Build
       run: |
         rm -rf node_modules
