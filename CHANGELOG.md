@@ -1,3 +1,6 @@
+* Merge branch 'develop' of github.com:erxes/erxes-integrations (a6d2fc7)
+* ci: rename packages inside release assets (f291a0b)
+
 * Merge branch 'develop' of github.com:erxes/erxes-integrations (08f7895)
 * erxes/erxes#2275 (c34e859)
 
